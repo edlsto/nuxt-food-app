@@ -3,9 +3,7 @@
     <h1>
       Nuxt Food App
     </h1>
-    <button>
-      See restaurants
-    </button>
+    <nuxt-link exact to="/restaurants"><button>Restaurants</button></nuxt-link>
   </section>
 </template>
 
